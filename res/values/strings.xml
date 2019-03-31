@@ -1,0 +1,186 @@
+<resources>
+    
+    <string name="new_year_wish">
+            May this new year brings you happiness and success, A great new start that make you and family happy and joyful. Happy New year
+    </string>
+    <string name="xmas_wish">
+            May your friends and relatives respect you, sadness neglect you and God protect you
+    </string>
+    <string name="eid_wish">
+           I pray on this EID, dish of your life is filled with juicy grilled kababs, topped with green salad of happiness and love. Eid Greetings
+    </string>
+ 
+    <string name="hbd_one">
+            Happy birthday to the wonderful person on earth, I hope that your special day is full of happiness and everything that is best for you
+    </string>
+    <string name="hbd_two">
+            Sending you wishes for every moment of your special day. Have an exciting wonderful time and Happy Birthday
+    </string>
+    <string name="hdb_three">
+            Sending you box of love, wishing you happiness, success and all the joy the birthday can bring for you. Happy Birthday
+    </string>
+    <string name="anniversary_wish">
+            You are the most remarkable person on earth, on this special day, I want to tell you that I am so blessed. I love you and Happy anniversary
+    </string>
+    
+    <string name="extra_features_helptext">
+            EXPORT GROUP:\nAdd personal groups and contacts in Group_Contacts.xml file and keep it save in your gadget  
+            \n\nIMPORT GROUP:\nSelect Group_Contacts.xml file in DOWNLOAD folder and update your personal groups with contacts by using exported XML file. (On re-installation of                                                                   SMS Planner or replacing new gadget with old one)
+			\n\nEXPORT CONTACTS:\nAdd your address book contacts in Phone_Contacts.xml file and save only those contacts which has phone number
+            \n\nIMPORT CONTACTS:\nSelect Phone_Contacts.XML file in DOWNLOAD folder and update your address book. (On Replacing new gadget with old one)
+    </string>        
+    <string name="new_year">New year</string>
+    <string name="xmax">Christmas</string>
+    <string name="eid">Eid</string>
+    <string name="happy_birthday">Happy Birthday</string>
+    <string name="anniversary">Anniversary</string>
+    
+    <string name="chk_network_con">Check network connection</string>
+    <string name="cant_send_msg">Cannot send message</string>
+    <string name="no_space_dl_foder">No space in download folder</string>
+    <string name="dl_folder_wrt_prt">Download folder is write protected</string>
+    <string name="cant_create_file">Cannot create file</string>
+    <string name="file_saved">File Saved</string>
+    <string name="file_save_dl_folder">File Saved in Download Folder</string>
+    <string name="notification_message">
+    		Now you can keep your group contacts secure in your device in future
+    		if you plan to change your mobile/tablet, Just copy this file
+			to your new device and load it by using Load Groups option
+	</string>
+    <string name="want_to_create">Do you want to create</string>
+    
+    <string name="db_error">could not save in database</string>
+    <string name="sms_delivering_msg">SMS will be delivered after</string>
+    <string name="characters">characters</string>
+    <string name="sms_length">Sms length</string>
+    <string name="warning">Warning</string>
+    <string name="in_progress">In progress</string>
+    <string name="confirmation">confirmation</string>
+    <string name="continue_progress">continue</string>
+    <string name="help">Help</string>
+    <string name="loading">Loading</string>
+    <string name="error">Error:</string>
+    <string name="groupsaved">Group saved</string>
+    
+    <string name="group_contacts_xml">group_contacts.xml</string>
+    <string name="phone_contacts_xml">phone_contacts.xml</string>
+    <string name="loading_contacts">Loading contacts in address book</string>
+    <string name="feel_free_use_device">Feel free to use your device</string>
+    <string name="updaing_group_book">Updaing Group book</string>
+    <string name="no_information_found">No information found</string>
+    <string name="file_error">File error</string>
+    <string name="cannot_add_contacts">Cannot add contacts in address book</string>
+    <string name="cannot_add_contact_error">Cannot add contact</string>
+    <string name="no_active_sms_found">No active SMS found</string>
+    <string name="no_history_found">No history found</string>
+    <string name="contact_added_msg">contacts Added in</string>
+    <string name="add_in_sms_activity">Add in SMS Activity</string>
+    <string name="address_book_has_updated">Address book has updated with contacts</string>
+    <string name="group_max_length">Group max length is 20 characters</string>
+        
+        
+    <string name="no_group_found">No group found</string>
+    <string name="app_name">SMSPlanner</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_smsplanner">SMS Planner</string>
+    <string name="grouplist">Manage Group</string>
+    <string name="creategroup">Create Group</string>
+    <string name="editdeletegroup">Edit or Delete Group</string>
+    
+    <string name="save">Save</string>
+    <string name="message">message</string>
+    <string name="wait_a_sec">wait a sec</string>
+ 	<string name="cancel">Cancel</string>
+ 	<string name="editgroup">Edit Group</string>
+ 	<string name="delete_this_group">Delete This Group</string>
+ 	<string name="deletegroup">Delete Group</string>
+ 	<string name="delete">Delete</string>
+ 	<string name="entergroupname">Enter Group Name</string>
+     <string name="activate_msg">Activate message</string>
+     <string name="delete_msg">Delete message</string>
+ 	
+ 	<string name="dbgrouplist">Get Group List</string>
+ 	<string name="mainscreen">SmsPlanner</string>
+     <string name="success">Success</string>
+ 	
+ 	<string name="opencontactlist">Contacts in Group</string>
+ 	<string name="grouplistforaddcontacts">Select Group and Add Contacts</string>
+ 	<string name="contactlist">Your Contacts</string>
+ 	<string name="deletecontacts">Delete contacts only</string>
+ 	<string name="deletecontactsonly">Delete Contacts</string>
+ 	<string name="xmlcreator">Save Your Contacts</string>
+ 	<string name="saveloadcontacts">Save OR Load Your Phone Contacts</string>
+ 	<string name="filechooserforcontacts">Choose Phone Contacts XML File</string>
+ 	<string name="sendsmsactivity">Send SMS</string>
+ 	<string name="grouplistforsms">Select Group for SMS</string>
+ 	<string name="contactlistforsms">Select Contact for SMS  </string>
+    <string name="select_xml">Select XML file  </string>
+ 	<string name="sendsmslater">Select time for future SMS </string>
+ 	<string name="save_your_groups_with_contacts">Save Your Groups with Contacts</string>
+ 	<string name="button">Button</string>
+    <string name="select_valid">Select valid</string>
+    <string name="no_selection_found">No selection found</string>
+    <string name="no_contact_found">No contact found</string>
+    <string name="no_contact_selected">No contact selected</string>
+    <string name="write_message">Write message</string>
+    <string name="enter_title">Enter title</string>
+    <string name="title_length_error">Title should not exceed more than 30 characters</string>
+    <string name="sms_delivered">Sms delivered</string>
+    <string name="not_yet_delivered">not yet delivered</string>
+    <string name="not_delivered">not delivered</string>
+    <string name="delivered">delivered</string>
+    <string name="already_exists">already exists</string>
+    <string name="contacts_and_delete">contacts and delete</string>
+    <string name="no_sms_record_found">No sms record found</string>
+    <string name="want_to_delete">Do you want to delete</string>
+    <string name="select_one_option">Select atleast one option</string>
+    <string name="group_delete_warning">Group and related contacts will be deleted</string>
+    
+    <string name="meg_delete_error">Could not delete, Message is active</string>
+    
+    <string name="contact">Contacts</string>
+    <string name="take_a_minute">It might take a minute</string>
+    <string name="atleast_one_group">Create atleast one group</string>
+    
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>  
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+    
+    <string name="send_sms_text">SEND SMS:</string>
+    <string name="send_sms_text_detail">Send messages to your friends and family. 
+    Add single or multiple contacts or add your personal groups. 
+    Write sms and set time when you want to send
+    </string>
+    <string name="create_group_text">CREATE GROUP</string>
+    <string name="create_group_text_detail">Create new group, add contacts in group, edit or delete group</string>
+    <string name="active_message_text">ACTIVE MESSAGE</string>
+    <string name="active_message_text_detail">Check your scheduled messages, activate or deactivate them</string>
+    <string name="show_history_text">SHOW HISTORY</string>
+    <string name="show_history_text_detail">Open list and check message history, long click on list item for more options</string>
+    <string name="extra_features_text">EXTRA FEATURES</string>
+    <string name="extra_features_text_detail">Click for more options</string>
+    
+    <string name="new_group_text">NEW GROUP</string>
+    <string name="new_group_text_detail">Create new group</string>
+    
+    <string name="add_in_group_text">ADD-IN GROUP</string>
+    <string name="add_in_group_text_detail">Open contacts list, select your contacts and add-in your group</string>
+    
+    <string name="manage_group_text">MANAGE GROUP</string>
+    <string name="manage_group_text_detail">Open your group list, long click on list item , edit name or delete group. Single click on any group and remove contacts</string>
+    
+
+ 	
+ 	
+  
+</resources>

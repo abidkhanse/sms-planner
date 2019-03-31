@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <EditText
+                android:id="@+id/EditviewPhoneNo"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:hint="Enter phone numbers with ; separated list"
+                android:inputType="textMultiLine"
+                android:lines="5" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_addcontact"
+                android:onClick="onClick"
+                android:padding="2dp" />
+
+            <ImageView
+                android:id="@+id/group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_addin"
+                android:onClick="onClick"
+                android:padding="2dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/textViewSMSTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Title : "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/theme_blue" />
+
+        <EditText
+            android:id="@+id/editTextTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="top"
+            android:hint="Title"
+            android:inputType="textMultiLine"
+            android:lines="1" >
+        </EditText>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/timeanddate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/selector_td"
+                android:onClick="onClick"
+                android:padding="2dp" />
+
+            <TextView
+                android:id="@+id/timeanddatetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="date and time"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                 android:textColor="@color/theme_blue" />
+
+            <ImageView
+                android:id="@+id/smstext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/help"
+                android:onClick="onClick" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewSMS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Message : "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#03A7E0" />
+
+            <EditText
+                android:id="@+id/editTextSMS"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:lines="10" />
+
+            <LinearLayout
+                android:id="@+id/rgStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/editTextSMS"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/editTextSMS"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/sendlater"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="Done"
+                    android:textColor="#03A7E0" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

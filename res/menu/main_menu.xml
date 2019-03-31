@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/CreateGroup"
+        android:alphabeticShortcut="s"
+        android:title="Create New Group">
+    </item>
+    
+      <item
+        android:id="@+id/OpenGroup"
+        android:alphabeticShortcut="t"
+        android:title="Open Your Groups">
+    </item>
+ 
+</menu>

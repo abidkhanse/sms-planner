@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/textcontactlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heading:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/theme_blue" />
+
+    <TextView
+        android:id="@+id/contactsinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textcontactlist"
+        android:scrollbars="vertical"
+        android:text="text here...."
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textViewmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contactsinfo"
+        android:layout_below="@+id/contactsinfo"
+        android:layout_marginTop="29dp"
+        android:text="Message : "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/theme_blue" />
+
+    <TextView
+        android:id="@+id/messageinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewmessage"
+        android:layout_below="@+id/textViewmessage"
+        android:maxLines="20"
+        android:scrollbars="vertical"
+        android:text="text here...."
+        android:textColor="#000000" />
+
+</RelativeLayout>
